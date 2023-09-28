@@ -1,4 +1,5 @@
 ﻿using PipApp.Interfaces;
+using PipApp.Views;
 using System.Windows.Input;
 
 namespace PipApp.ViewModels
@@ -41,6 +42,9 @@ namespace PipApp.ViewModels
             _navigationService = navigationService;
             _dataService = dataService;
 
+            User = "demo";
+            Password = "demo123";
+
             // Comando Login
             LoginCommand = new Command(
                 execute: async () =>
@@ -57,7 +61,7 @@ namespace PipApp.ViewModels
                         // Application.Current.MainPage = new NavigationPage();
 
                         // Indicamos parámetros y vamos a la página login
-                        // await _navigationService.NavigateToPage<MainPage>(new Dictionary<string, object> { { "user", User } });
+                        await _navigationService.NavigateToPage<MainPage>(new Dictionary<string, object> { { "user", User } });
                     }
                     else await Application.Current.MainPage.DisplayAlert("Error", "Usuario o Contraseña incorrecto", "Ok");
                 });
@@ -66,41 +70,41 @@ namespace PipApp.ViewModels
             RegisterCommand = new Command(execute: async () => await Application.Current.MainPage.DisplayAlert("Atención!", "Opción de registro en desarrollo", "Ok"));
         }
 
-        ///// <summary>
-        ///// Cuando llegó a su siguiente página, aquí se notifica
-        ///// </summary>
-        ///// <param name="isForwardNavigation"></param>
-        ///// <returns></returns>
-        //public override Task OnNavigatedFrom(bool isForwardNavigation)
-        //{
-        //    return base.OnNavigatedFrom(isForwardNavigation);
-        //}
+        /// <summary>
+        /// Cuando llegó a su siguiente página, aquí se notifica
+        /// </summary>
+        /// <param name="isForwardNavigation"></param>
+        /// <returns></returns>
+        public override Task OnNavigatedFrom(bool isForwardNavigation)
+        {
+            return base.OnNavigatedFrom(isForwardNavigation);
+        }
 
-        ///// <summary>
-        ///// Cuando estamos llegando a esta página (antes del initialize)
-        ///// Aquí recibiríamos los parámetros
-        ///// </summary>
-        ///// <param name="parameter"></param>
-        ///// <returns></returns>
-        //public override Task OnNavigatingTo(object? parameter)
-        //{
-        //    if (parameter != null)
-        //    {
-        //        var pars = (Dictionary<string, object>)parameter;
-        //        if (pars == null) return base.OnNavigatingTo(parameter);
-        //        Version = $"Versión:  {pars["version"]}";
-        //    }
-        //    return base.OnNavigatingTo(parameter);
-        //}
+        /// <summary>
+        /// Cuando estamos llegando a esta página (antes del initialize)
+        /// Aquí recibiríamos los parámetros
+        /// </summary>
+        /// <param name="parameter"></param>
+        /// <returns></returns>
+        public override Task OnNavigatingTo(object? parameter)
+        {
+            if (parameter != null)
+            {
+                var pars = (Dictionary<string, object>)parameter;
+                if (pars == null) return base.OnNavigatingTo(parameter);
+                Version = $"Versión:  {pars["version"]}";
+            }
+            return base.OnNavigatingTo(parameter);
+        }
 
-        ///// <summary>
-        ///// Cuando hemos llegado a esta página (después del initialize)
-        ///// Aquí realizaríamos cualquier operación con los parámetros obenidos
-        ///// </summary>
-        ///// <returns></returns>
-        //public override Task OnNavigatedTo()
-        //{
-        //    return base.OnNavigatedTo();
-        //}
+        /// <summary>
+        /// Cuando hemos llegado a esta página (después del initialize)
+        /// Aquí realizaríamos cualquier operación con los parámetros obenidos
+        /// </summary>
+        /// <returns></returns>
+        public override Task OnNavigatedTo()
+        {
+            return base.OnNavigatedTo();
+        }
     }
 }

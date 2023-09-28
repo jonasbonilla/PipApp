@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="PipApp.Views.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label 
+            VerticalOptions="Center" 
+            HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Hola, " />
+                        <Span Text="{Binding User}" TextColor="{StaticResource Primary}" FontAttributes="Bold"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Button 
+            Text="NewPage1" 
+            Command="{Binding NewPage1Command}" />
+
+            <Button 
+            Text="NewPage2" 
+            Command="{Binding NewPage2Command}" />
+
+            <Button 
+            Text="NewPage3" 
+            Command="{Binding NewPage3Command}" />
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

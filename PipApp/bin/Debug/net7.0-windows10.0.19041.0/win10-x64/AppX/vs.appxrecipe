@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Melissa\PipApp\PipApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-28T02:48:18.832</Modified>
+      <Modified>2023-09-28T03:36:25.035</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-09-28T02:48:15.682</Modified>
+      <Modified>2023-09-28T03:26:13.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PipApp.runtimeconfig.json">
       <PackagePath>PipApp.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\PipApp.dll">
       <PackagePath>PipApp.dll</PackagePath>
-      <Modified>2023-09-28T02:48:10.975</Modified>
+      <Modified>2023-09-28T03:36:19.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PipApp.exe</PackagePath>
-      <Modified>2023-09-28T02:48:11.097</Modified>
+      <Modified>2023-09-28T03:36:19.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -943,7 +943,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\PipApp.deps.json">
       <PackagePath>PipApp.deps.json</PackagePath>
-      <Modified>2023-09-28T02:48:17.764</Modified>
+      <Modified>2023-09-28T03:36:24.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -991,207 +991,215 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-09-28T01:59:41.647</Modified>
+      <Modified>2023-09-28T03:18:13.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-09-28T01:59:45.729</Modified>
+      <Modified>2023-09-28T03:18:14.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-09-28T01:59:45.961</Modified>
+      <Modified>2023-09-28T03:18:14.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-09-28T01:59:46.142</Modified>
+      <Modified>2023-09-28T03:18:14.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-09-28T01:59:46.452</Modified>
+      <Modified>2023-09-28T03:18:14.636</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-09-28T01:59:47.462</Modified>
+      <Modified>2023-09-28T03:18:15.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.960</Modified>
+      <Modified>2023-09-28T03:18:13.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.982</Modified>
+      <Modified>2023-09-28T03:18:13.412</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.145</Modified>
+      <Modified>2023-09-28T03:18:13.442</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.007</Modified>
+      <Modified>2023-09-28T03:18:13.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.035</Modified>
+      <Modified>2023-09-28T03:18:13.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.809</Modified>
+      <Modified>2023-09-28T03:18:13.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.829</Modified>
+      <Modified>2023-09-28T03:18:13.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.941</Modified>
+      <Modified>2023-09-28T03:18:13.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.854</Modified>
+      <Modified>2023-09-28T03:18:13.372</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.877</Modified>
+      <Modified>2023-09-28T03:18:13.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.196</Modified>
+      <Modified>2023-09-28T03:18:13.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.217</Modified>
+      <Modified>2023-09-28T03:18:13.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.280</Modified>
+      <Modified>2023-09-28T03:18:13.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.354</Modified>
+      <Modified>2023-09-28T03:18:13.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.531</Modified>
+      <Modified>2023-09-28T03:18:13.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.594</Modified>
+      <Modified>2023-09-28T03:18:13.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.645</Modified>
+      <Modified>2023-09-28T03:18:13.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.782</Modified>
+      <Modified>2023-09-28T03:18:13.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.675</Modified>
+      <Modified>2023-09-28T03:18:13.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.713</Modified>
+      <Modified>2023-09-28T03:18:13.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-09-28T01:59:44.221</Modified>
+      <Modified>2023-09-28T03:18:13.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-09-28T01:59:44.334</Modified>
+      <Modified>2023-09-28T03:18:13.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-09-28T01:59:44.399</Modified>
+      <Modified>2023-09-28T03:18:13.630</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-09-28T01:59:44.492</Modified>
+      <Modified>2023-09-28T03:18:13.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-09-28T01:59:44.673</Modified>
+      <Modified>2023-09-28T03:18:13.787</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.634</Modified>
+      <Modified>2023-09-28T03:18:13.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.689</Modified>
+      <Modified>2023-09-28T03:18:13.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.766</Modified>
+      <Modified>2023-09-28T03:18:13.500</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.855</Modified>
+      <Modified>2023-09-28T03:18:13.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-09-28T01:59:44.069</Modified>
+      <Modified>2023-09-28T03:18:13.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.167</Modified>
+      <Modified>2023-09-28T03:18:13.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.347</Modified>
+      <Modified>2023-09-28T03:18:13.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.396</Modified>
+      <Modified>2023-09-28T03:18:13.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.480</Modified>
+      <Modified>2023-09-28T03:18:13.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.542</Modified>
+      <Modified>2023-09-28T03:18:13.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-09-28T01:59:44.734</Modified>
+      <Modified>2023-09-28T03:18:13.822</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-09-28T01:59:44.809</Modified>
+      <Modified>2023-09-28T03:18:13.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-09-28T01:59:44.908</Modified>
+      <Modified>2023-09-28T03:18:13.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-09-28T01:59:45.090</Modified>
+      <Modified>2023-09-28T03:18:14.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-09-28T01:59:45.633</Modified>
+      <Modified>2023-09-28T03:18:14.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-09-28T01:59:41.852</Modified>
+      <Modified>2023-09-28T03:18:13.203</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.147</Modified>
+      <Modified>2023-09-28T03:18:13.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.453</Modified>
+      <Modified>2023-09-28T03:18:13.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-09-28T01:59:42.716</Modified>
+      <Modified>2023-09-28T03:18:13.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-09-28T01:59:43.220</Modified>
+      <Modified>2023-09-28T03:18:13.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\lock.scale-100.png">
+      <PackagePath>lock.scale-100.png</PackagePath>
+      <Modified>2023-09-24T20:43:28.813</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Melissa\PipApp\PipApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png">
+      <PackagePath>user.scale-100.png</PackagePath>
+      <Modified>2023-09-24T20:43:06.708</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

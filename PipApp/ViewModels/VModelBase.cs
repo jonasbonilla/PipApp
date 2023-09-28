@@ -15,16 +15,14 @@ namespace PipApp.ViewModels
             OnPropertyChanged(propertyName);
             return true;
         }
-
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             var handler = PropertyChanged;
             handler?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
-        //public virtual Task OnNavigatingTo(object? parameter) => Task.CompletedTask;
-        //public virtual Task OnNavigatedTo() => Task.CompletedTask;
-        //public virtual Task OnNavigatedFrom(bool isForwardNavigation) => Task.CompletedTask;
+        public virtual Task OnNavigatingTo(object? parameter) => Task.CompletedTask;
+        public virtual Task OnNavigatedTo() => Task.CompletedTask;
+        public virtual Task OnNavigatedFrom(bool isForwardNavigation) => Task.CompletedTask;
     }
 }

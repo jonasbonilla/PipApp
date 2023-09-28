@@ -5,9 +5,10 @@
     /// </summary>
     public interface INavigationService
     {
-        //Task NavigateToPage<T>(object? parameter = null) where T : Page;
-        //Task NavigateBack();
-        //void PageNavigatedTo(object? sender, NavigatedToEventArgs e);
-        //void PageNavigatedFrom(object? sender, NavigatedFromEventArgs e);
+        Task NavigateToMainPage(object? parameter = null);
+        Task NavigateToPage<T>(object? parameter = null) where T : Page;
+        Task NavigateBack();
+        void PageNavigatedTo(object? sender, NavigatedToEventArgs e);
+        void PageNavigatedFrom(object? sender, NavigatedFromEventArgs e);
     }
 }

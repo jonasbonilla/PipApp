@@ -10,9 +10,7 @@ namespace PipApp
         /// </summary>
         private readonly INavigationService _navigationService;
         private readonly IDataService _dataService;
-
-        private Dictionary<string, object> _parametros;
-
+         
         public App(IDataService dataService, INavigationService navigationService)
         {
             InitializeComponent();
@@ -33,12 +31,8 @@ namespace PipApp
             CComunes.HasFingerprint = false;
 
             // Definimos página inicial (No Shell)
-            //MainPage = new NavigationPage();
-            MainPage = new MainPage();
-
-            // Indicamos parámetros y vamos a la página login
-            _parametros = new Dictionary<string, object> { { "version", $"{AppInfo.Current.VersionString}.{AppInfo.Current.BuildString}" } };
-            //_navigationService.NavigateToPage<LoginPage>(_parametros);
+            MainPage = new NavigationPage();
+            _navigationService.NavigateToMainPage(new Dictionary<string, object> { { "version", $"{AppInfo.Current.VersionString}.{AppInfo.Current.BuildString}" } });
         }
     }
 }

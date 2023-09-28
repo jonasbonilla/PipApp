@@ -51,7 +51,7 @@ namespace PipApp
     public static MauiAppBuilder RegisterViewModels(this MauiAppBuilder mauiAppBuilder)
     {
         mauiAppBuilder.Services.AddSingleton<VModelLogin>();
-        //mauiAppBuilder.Services.AddSingleton<MainPageViewModel>();
+        mauiAppBuilder.Services.AddSingleton<VModelMain>();
         //mauiAppBuilder.Services.AddSingleton<NewPage1ViewModel>();
         //mauiAppBuilder.Services.AddSingleton<NewPage2ViewModel>();
         //mauiAppBuilder.Services.AddSingleton<NewPage3ViewModel>();
@@ -66,7 +66,7 @@ namespace PipApp
     public static MauiAppBuilder RegisterView(this MauiAppBuilder mauiAppBuilder)
     {
         mauiAppBuilder.Services.AddSingleton<LoginPage>();
-        //mauiAppBuilder.Services.AddSingleton<MainPage>();
+        mauiAppBuilder.Services.AddSingleton<MainPage>();
         //mauiAppBuilder.Services.AddSingleton<NewPage1>();
         //mauiAppBuilder.Services.AddSingleton<NewPage2>();
         //mauiAppBuilder.Services.AddSingleton<NewPage3>();
